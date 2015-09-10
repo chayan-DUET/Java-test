@@ -28,10 +28,11 @@ public class Pr_8086 {
     
     //=============constructructor===========
 
-     Pr_8086(int xx,int yy) {
-         x=xx;
-         y=yy;
-    
+     Pr_8086(int x,int y) {
+        // x=xx;
+       //  y=yy;
+       this.x=x;
+       this.y=y;
      }
     
     
