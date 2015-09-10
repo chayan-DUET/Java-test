@@ -25,4 +25,14 @@ public class Pr_8086 {
         System.out.println("Result="+r);
     }
     
+    
+    //=============constructructor===========
+
+     Pr_8086(int xx,int yy) {
+         x=xx;
+         y=yy;
+    
+     }
+    
+    
 }
