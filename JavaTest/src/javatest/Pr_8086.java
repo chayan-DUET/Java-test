@@ -35,5 +35,13 @@ public class Pr_8086 {
        this.y=y;
      }
     
+      Pr_8086(int x,int y,int z) {
+        // x=xx;
+       //  y=yy;
+       this.x=x;
+       this.y=y;
+       r=this.x+this.y+z;
+       
+     }
     
 }
