@@ -4,6 +4,8 @@
  */
 package javatest;
 
+import PakageChild.ChildClass;
+
 /**
  *
  * @author Chayan_pc
@@ -26,5 +28,16 @@ public class JavaTest {
         ob2.result();
         ob2.sub();
         ob2.result();
+        
+        
+   //------------------visibilllllity-------------
+        parantClass pc=new parantClass(5,5);
+       // pc.a=5;
+       // pc.b=5;
+       // pc.add();
+        pc.print();
+       // ChildClass cc=new ChildClass();
+        
+        
     }
 }
