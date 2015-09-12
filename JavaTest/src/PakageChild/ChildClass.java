@@ -9,7 +9,7 @@ package PakageChild;
  * @author Chayan_pc
  */
 public class ChildClass {
-    public int c;
-    private int d;
+     int c;
+    public  int d;
     
 }

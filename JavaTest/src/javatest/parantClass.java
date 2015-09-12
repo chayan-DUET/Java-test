@@ -12,21 +12,21 @@ import PakageChild.ChildClass;
  */
 public class parantClass extends ChildClass {
      int a;
-      int b;
-      int r;
-      parantClass(int aa,int bb)
+     int b;
+    private  int f;
+    /*  parantClass(int aa,int bb)
       {
       this.a=aa;
       this.b=bb;
       this.r=this.a+this.b;
-      }
+      }*/
    void add()
    {
-   r=a+b;
+   f=a+b;
    }
    void print()
    {
-       System.out.println(r);
+       System.out.println(f);
    }
     
 }

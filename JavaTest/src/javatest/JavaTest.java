@@ -19,6 +19,26 @@ public class JavaTest {
         // TODO code application logic here
         Pr_8086 ob1=new Pr_8086(10,10);
         Pr_8086 ob2=new Pr_8086(20,4,60);
+        
+             Pr_8086 obpr=new Pr_8086(10,10);
+             obpr.p=1;
+             obpr.x=1;
+             obpr.y=1;
+             obpr.add();
+             obpr.print();
+             
+             
+             //--------------inheri  and overwritten and protected-----------
+             
+             pro2 pro2=new pro2();
+             pro2.p=2;
+             pro2.q=2;
+             pro2.add();
+             pro2.print();
+             pro1 p1=new pro1(9, 9);
+             p1.p=9;
+             p1.add();
+             p1.print();
         //ob1.x=10;
        // ob1.y=10;
         ob1.add();
@@ -31,12 +51,17 @@ public class JavaTest {
         
         
    //------------------visibilllllity-------------
-        parantClass pc=new parantClass(5,5);
-       // pc.a=5;
-       // pc.b=5;
-       // pc.add();
+        parantClass pc=new parantClass();
+        pc.a=22;
+        pc.b=5;
+       
+        pc.add();
+       
         pc.print();
+         
        // ChildClass cc=new ChildClass();
+       // ChildClass cc=new ChildClass();
+        
         
         
     }

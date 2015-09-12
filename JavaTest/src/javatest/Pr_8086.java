@@ -8,13 +8,26 @@ package javatest;
  *
  * @author Chayan_pc
  */
-public class Pr_8086 {
+public class Pr_8086 extends pro2 {
+    
+    //---------------p2ext-----------
+    
+    
+    
+    
+    
+    
     int x;
     int y;
-    int r;
+   private  int r;
     void add()
     {
-     r=x+y;
+     r=x+y+p;
+    }
+    
+    void print()
+    {
+        System.out.println(r);
     }
     void sub()
     {
